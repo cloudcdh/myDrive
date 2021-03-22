@@ -1,0 +1,24 @@
+{
+    "name": "Test ",
+    "description": "MY Drive",
+    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "keywords": [
+      "npm",
+      "nodejs"
+    ],
+    "repository": "https://github.com/breakdowns/slam-mirrorbot",
+    "website": "https://github.com/breakdowns/slam-mirrorbot",
+    "success_url": "https://github.com/breakdowns/slam-mirrorbot/blob/master/README.md",
+    "stack": "container",
+    "env": {
+      "ENV": {
+      "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": false
+      },
+      
+    }
+}
